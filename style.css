@@ -60,3 +60,19 @@
 .heros > form {
   margin-top: 40px;
 }
+.heross{
+  border: solid orange;
+  background-color: orange;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+.heross-images{
+  display: flex;
+  justify-content:space-between ;
+  margin: 50px;
+}
+.heading{
+  text-align: center;
+}
