@@ -55,3 +55,25 @@ const displayMeal = (meals) => {
   }
 };
 
+
+
+//function to allow meals to display basing on the criterion that tha user has chosen to use in finding their recipe.
+const getUserInput = (form) => {
+    form.preventDefault();
+    userInput = input.value;
+    let criterion = Array(...searchCriteria).filter(
+      (criteria) => criteria.selected
+    );
+    if (criterion[0].value === "name") {
+      if (userInput.trim()) {
+        fetchMealByName(userInput);
+      }
+    } else if (criterion[0].value === "place") {
+      fetchMealByPlace(userInput);
+    } else if (criterion[0].value === "ingredients") {
+      fetchMealByMainIngredient(userInput);
+    }
+    searchMealForm.reset();
+  };
+  
+  searchMealForm.addEventListener("submit", getUserInput);
