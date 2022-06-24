@@ -44,3 +44,55 @@ As a user of this web application, you will be able to:
 3. See information about the possible categories you can choose an item from and head back to the search section and use the item name to search for the recipe you desire.
 
 Note: Only searching by meal name is possible, searching by cuisine or main ingredients is not functional.
+
+
+## Installation Requirement
+In order to install and use the application one will require the following
+
+* Access to eithera computer, a smartphone a tablet or any other gadget.
+* Access to Internet/ Internet connection.
+
+## Live Link
+Click this link to view the live application.
+
+LiveLink -[Gh-pages](
+https://miriam-naomi-anyango.github.io/Reci/)
+
+
+## Technology Used 
+
+* HTML - Used to develope the structure of the pages.
+
+* CSS - Used to style the user Interface.
+
+* JavaScript - Used to add interactivity to the website and acheieve the functionality of the app, by offering appropriate information the user may seek for.
+
+## Future Improvement
+The application offers 3 categories by which a user can search for recipes, however only search by Meal Name is functional, adjusting the functionality in order to ensure that all categories can be used is put into consideration and looked forward to implementation.
+
+## License
+
+MIT license
+Copyright (c) [2022] [Miriam Anyango]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## Authors Info
+
+GitHub - [Miriam Anyango](https://github.com/Miriam-Naomi-Anyango)
