@@ -16,10 +16,7 @@
             <ul>
                 <li class="list-items">Home</li>
                 <li class="list-items">Recipe</li>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn">Search</button>
-                </form>
+                <li class="list-items">Help</li>
             </ul>
         </div>
     </div>
@@ -46,11 +43,34 @@
         <h1>We got you covered</h1>
         <p>Find recipes based on special diets, nutritional requirements, or favorite ingredients,<br> 
             our recipes can be classified into types and cuisines and let you<br>
-             convert ingredient amounts, or even compute an entire meal plan</p>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn">Search</button>
-        </form>
+            convert ingredient amounts, or even compute an entire meal plan</p>
+
+            <form action="" id="search-meal-form">
+       
+                <select name="search-meal" id="search-meal" autocomplete="on">
+                    <option value="" disabled selected>Choose Search Criteria</option>            
+                    <option value="name" class="criterion">By Name</option>
+                    <option value="place" class="criterion">By Place</option>
+                    <option value="ingredient" class="criterion">By Ingredient</option>
+                </select>
+                <input type="text" id="input" value="" placeholder="Search...">
+                <button id="search-meal">Submit</button>
+            </form>
+            <ul id="meal-list">
+        
+            </ul>
+        
+            <h1 id="meal-name"></h1>
+            <img id="meal-image" src="" alt=""/>
+        
+           
+            <ul id="ingredients">
+        
+            </ul>
+        
+            <p id="recipe">
+        
+            </p>
     </div>
 
 
