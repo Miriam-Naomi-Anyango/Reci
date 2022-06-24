@@ -62,6 +62,9 @@ https://miriam-naomi-anyango.github.io/Reci/)
 Design Architecture -[Figma-Link](
 https://www.figma.com/file/3eSKt18lG3g8qrrbETLcoa/RECI?node-id=0%3A1)
 
+Live Demo Link -[Screen-recording](
+Screencast from 24-06-2022 10:57:44 WB.webm)
+
 ## Technology Used 
 
 * HTML - Used to develope the structure of the pages.
