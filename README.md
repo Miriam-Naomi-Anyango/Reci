@@ -59,6 +59,9 @@ LiveLink -[Gh-pages](
 https://miriam-naomi-anyango.github.io/Reci/)
 
 
+Design Architecture -[Figma-Link](
+https://www.figma.com/file/3eSKt18lG3g8qrrbETLcoa/RECI?node-id=0%3A1)
+
 ## Technology Used 
 
 * HTML - Used to develope the structure of the pages.
