@@ -57,7 +57,7 @@ const displayMeal = (meals) => {
 
 
 
-//function to allow meals to display basing on the criterion that tha user has chosen to use in finding their recipe.
+//function to allow meals to display basing on the criterion that the user has chosen to use in finding their recipe.
 const getUserInput = (form) => {
     form.preventDefault();
     userInput = input.value;
@@ -77,3 +77,4 @@ const getUserInput = (form) => {
   };
   
   searchMealForm.addEventListener("submit", getUserInput);
+
