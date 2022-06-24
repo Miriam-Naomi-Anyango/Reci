@@ -35,3 +35,23 @@ const fetchMealByName = async (name) => {
 
 
 
+//callback function to display meals following search by any criterion
+const displayMeal = (meals) => {
+  mealList.innerHTML = "";
+  if (meals.length > 0) {
+    console.log(meals[0]);
+
+    meals.forEach((meal, i) => {
+      mealName.textContent = meal.strMeal;
+      mealImage.src = meal.strMealThumb;
+      mealRecipe.textContent = meal.strInstructions;
+    });
+
+    meals.forEach((meal) => {
+      let li = document.createElement("li");
+      li.textContent = meal.strMeal;
+      mealList.appendChild(li);
+    });
+  }
+};
+
